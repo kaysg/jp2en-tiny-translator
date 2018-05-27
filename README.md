@@ -22,7 +22,7 @@ train_iters(encoder1, attn_decoder1, 75000, print_every=5000)
 ...
 ```
 ### Loss Curve
-![Loss curve](./img/loss.png)
+<img src="./img/loss.png" title="Loss curve" width="400">
 
 ## Translation
 ### Random Output
@@ -66,7 +66,7 @@ evaluate_and_show_attention("彼は見聞の広い人だ。")
 input = 彼は見聞の広い人だ。
 output = he is a well informed person. <EOS>
 ```
-![Attention1](./img/test1_attention.png)
+<img src="./img/test1_attention.png" title="Attention1" width="400">
 
 ```
 evaluate_and_show_attention("私はちょうど散歩に出かけるところです。")
@@ -75,7 +75,7 @@ evaluate_and_show_attention("私はちょうど散歩に出かけるところで
 input = 私はちょうど散歩に出かけるところです。
 output = i am just going for a walk. <EOS>
 ```
-![Attention1](./img/test2_attention.png)
+<img src="./img/test2_attention.png" title="Attention2" width="400">
 
 ```
 evaluate_and_show_attention("彼女は彼より頭がいい。")
@@ -84,7 +84,8 @@ evaluate_and_show_attention("彼女は彼より頭がいい。")
 input = 彼女は彼より頭がいい。
 output = she is smarter than he is. <EOS>
 ```
-![Attention1](./img/test3_attention.png)
+<img src="./img/test3_attention.png" title="Attention3" width="400">
+
 ## ToDo
 - Try other verb form (non be-verb form) and verify the quality
 
